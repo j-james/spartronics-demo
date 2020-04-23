@@ -1,0 +1,238 @@
+/* menu.scss - a work in progress */
+/* Some elements need to be changed to work with the current structure */
+
+$blue: #1455fb;
+
+#header {
+	background: $blue;
+	margin: 0;
+	width: 100%;
+	padding: 0;
+	line-height: 1;
+	display: block;
+	position: relative;
+	font-family: 'Raleway', sans-serif;
+	z-index: 1;
+	#header ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		display: block;
+		#header ul li {
+			margin: 0;
+			padding: 0;
+			display: block;
+			position: relative;
+			#header ul li a {
+				text-decoration: none;
+				display: block;
+				margin: 0;
+				transition: color .2s ease;
+				box-sizing: border-box;
+			}
+			#header ul li ul {
+				position: absolute;
+				left: -9999px;
+				top: auto;
+				#header ul li ul li {
+					max-height: 0;
+					position: absolute;
+					transition: max-height 0.4s ease-out;
+					background: white;
+					#header ul li ul li a {
+						font-size: 14px;
+						font-weight: 400;
+						text-transform: none;
+						color: black;
+						letter-spacing: 0;
+						display: block;
+						width: 170px;
+						padding: 11px 10px 11px 20px;
+					}
+				}
+				#header ul li ul li.has-sub:before {
+					display: block;
+					position: absolute;
+					content: "";
+					height: 0;
+					width: 0;
+					border: 3px solid transparent;
+					border-left-color: white;
+					z-index: 2;
+					top: 15px;
+					right: 15px;
+				}
+				#header ul li ul li.has-sub:after {
+					display: block;
+					position: absolute;
+					content: "";
+					height: 10px;
+					width: 10px;
+					border-radius: 5px;
+					background: black;
+					z-index: 1;
+					top: 13px;
+					right: 15px;
+				}
+
+				#header ul li ul li:hover>a, #header ul li ul li.active>a {
+					color: $blue;
+				}
+				#header ul li ul li:hover>ul {
+					left: 100%;
+					top: 0;
+					#header ul li ul li:hover>ul>li {
+						max-height: 72px;
+						position: relative;
+					}
+				}
+				#header ul li ul li:hover:after, #header ul li ul li.active:after {
+					background: $blue;
+				}
+			}
+		}
+	}
+	#header ul:after, #header:after {
+		content: " ";
+		display: block;
+		font-size: 0;
+		height: 0;
+		clear: both;
+		visibility: hidden;
+	}
+
+	#header>ul {
+		#header>ul>li {
+			float: left;
+			#header>ul>li>a {
+				color: white;
+				padding: 15px 20px;
+				font-weight: 700;
+				letter-spacing: 1px;
+				text-transform: uppercase;
+				font-size: 14px;
+				z-index: 2;
+				position: relative;
+			}
+			#header>ul>li>a {
+				display: block;
+			}
+			#header>ul>li>ul {
+				width: 170px;
+				display: block;
+				#header>ul>li>ul>li {
+					width: 170px;
+					display: block;
+				}
+			}
+		}
+		#header>ul>li {
+			width: auto;
+		}
+		#header>ul>li:after {
+			content: "";
+			display: block;
+			position: absolute;
+			width: 100%;
+			height: 0;
+			top: 0;
+			z-index: 0;
+			background: white;
+			transition: height .2s;
+		}
+
+		#header>ul>li.has-sub>a {
+			padding-right: 40px;
+		}
+		#header>ul>li.has-sub>a:before {
+			display: block;
+			content: "";
+			border: 4px solid transparent;
+			border-top-color: $blue;
+			z-index: 2;
+			height: 0;
+			width: 0;
+			position: absolute;
+			right: 16px;
+			top: 21px;
+		}
+		#header>ul>li.has-sub>a:after {
+			display: block;
+			content: "";
+			background: white;
+			height: 12px;
+			width: 12px;
+			position: absolute;
+			border-radius: 13px;
+			right: 14px;
+			top: 16px;
+		}
+
+		#header>ul>li:hover:after, #header>ul>li.active:after {
+			height: 100%;
+		}
+
+		#header>ul>li:hover>a, #header>ul>li.active>a {
+			color: black;
+		}
+
+		#header>ul>li:hover>a:after, #header>ul>li.active>a:after {
+			background: black;
+		}
+
+		#header>ul>li:hover>a:before, #header>ul>li.active>a:before {
+			border-top-color: white;
+		}
+
+		#header>ul>li:hover>ul {
+			left: 0;
+			#header>ul>li:hover>ul>li {
+				max-height: 72px;
+				position: relative;
+			}
+		}
+	}
+
+	#header #header-button {
+		display: none;
+	}
+}
+#header.align-center {
+	#header.align-center ul ul {
+		text-align: left;
+	}
+	#header.align-center>ul {
+		text-align: center;
+		font-size: 0;
+		#header.align-center>ul>li {
+			float: none;
+			display: inline-block;
+		}
+	}
+}
+#header.align-right {
+	#header.align-right ul li ul li.has-sub:before {
+		right: auto;
+		left: 15px;
+		border-left-color: transparent;
+		border-right-color: white;
+	}
+	#header.align-right ul li ul li.has-sub:after {
+		right: auto;
+		left: 15px;
+	}
+	#header.align-right ul ul li:hover>ul {
+		right: 100%;
+		left: auto;
+	}
+	#header.align-right ul ul li a {
+		text-align: right;
+	}
+	#header.align-right>ul {
+		float: right;
+		#header.align-right>ul>li:hover>ul {
+			left: auto;
+			right: 0;
+		}
+	}
+}

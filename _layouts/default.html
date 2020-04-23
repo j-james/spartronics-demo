@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title> {{ page.title }} - Spartronics </title>
+		<meta charset="utf-8"/>
+		<link rel="icon" type="image/png" href="{% link assets/images/favicon.png %}"/>
+		<link rel="stylesheet" href="{% link css/normalize.scss %}"/>
+		<link rel="stylesheet" href="{% link css/default.scss %}"/>
+		<link rel="stylesheet" href="{% link css/menu.scss %}"/>
+	</head>
+	<body>
+		<div id="page">
+		{% include header.html %}
+
+		{{ content }}
+
+		{% include footer.html %}
+		</div>
+	</body>
+</html>

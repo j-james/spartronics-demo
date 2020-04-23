@@ -1,0 +1,32 @@
+$blue: #1455fb;
+$light-grey: #D5D5D5;
+
+a {
+	color: $light-grey;
+	/*hover: $blue;*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Railway";
+}
+
+body {
+	background-image: url("https://spartronics4915.com/wp-content/uploads/pattern.png");
+	background-repeat: repeat;
+	padding: 15px 0; /*???*/
+}
+
+#page {
+	background-color: white;
+}
+
+/* SASS supports nesting (!)*/
+
+footer {
+	background: grey;
+	display: flex;
+	flex-direction: row;
+	h1 {
+		border-bottom: 2px solid $blue;
+	}
+}
