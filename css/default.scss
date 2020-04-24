@@ -1,32 +1,158 @@
+---
+---
+
+/* Above is needed for Jekyll */
+
 $blue: #1455fb;
+$yellow: #fcff00;
 $light-grey: #D5D5D5;
+$medium-grey: #EAEAEA;
+$dark-grey: #444444;
 
-a {
-	color: $light-grey;
-	/*hover: $blue;*/
-}
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,800,700,900);
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: "Railway";
-}
-
+/* SASS supports nesting (!)*/
 body {
 	background-image: url("https://spartronics4915.com/wp-content/uploads/pattern.png");
-	background-repeat: repeat;
-	padding: 15px 0; /*???*/
+	background-size: 100% 100%;
+	background-repeat: repeat-x;
+	display: flex;
+	justify-content: space-around;
+	font-family: "Raleway", cursive; /* Easy to spot mistakes */
+	padding: 15px;
+	a {
+		color: $blue;
+	}
 }
 
 #page {
 	background-color: white;
+	max-width: 1080px;
 }
 
-/* SASS supports nesting (!)*/
+#page-title {
+	padding: 2px;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.05) inset;
+	border-bottom: 1px solid $medium-grey;
+	h1 {
+		font-size: 26px;
+		font-weight: normal;
+		line-height: 32px;
+		padding-left: 15px;
+	}
+}
 
-footer {
-	background: grey;
+#page-content {
+	padding: 20px;
+	h1 {
+		font-size: 28px;
+	}
+	h2 {
+		font-size: 26px;
+		line-height: 34px;
+		font-weight: bold;
+	}
+	h3 {
+		font-size: 22px;
+		line-height: 34px;
+		font-weight: normal;
+	}
+	h4 {
+		font-size: 16px;
+		line-height: 10px;
+		font-weight: bold;
+	}
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+	ul {
+		list-style: square;
+	}
+}
+
+#header {
+	color: $dark-grey;
+	border-bottom: 1px solid $medium-grey;
+	display: flex;
+	flex-direction: column;
+	a {
+		color: $dark-grey;
+		text-decoration: none;
+	}
+	a:hover {
+		color: $blue;
+	}
+}
+
+#logo {
 	display: flex;
 	flex-direction: row;
+	justify-content: flex-start;
+	padding: 15px;
+}
+
+#logo-image {
+	padding-right: 20px;
+	max-height: 100px;
+	width: auto;
+}
+
+#logo-text {
 	h1 {
+		font-weight: normal;
+		font-size: 36px;
+		line-height: 14px;
+	}
+	h2 {
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 12px;
+	}
+}
+
+/* Temporary! */
+#menu {
+	display: flex;
+	flex-direction: row;
+	ul li {
+		display: none;
+	}
+	ul:hover li {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+#footer {
+	background:grey;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	a {
+		color: $light-grey;
+	}
+	a:hover {
+		color: $blue;
+	}
+	h3 {
+		font-size: 22px;
+		font-weight: normal;
+		line-height: 32px;
+		color: white;
+	}
+	p {
+		font-size: 14px;
+		line-height: 18px;
+		color: white;
+	}
+	span {
 		border-bottom: 2px solid $blue;
 	}
 }
+
+/* Borders */ /*
+div, nav, img, h1, h2, h3, h4, h5 {
+	border: 1px solid black;
+	margin: 2px;
+} */
