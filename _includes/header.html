@@ -2,18 +2,16 @@
 	<div id="logo">
 		<a href="https://spartronics4915.com"> <img id="logo-image" src="{% link assets/images/logo.png %}"/> </a>
 		<div id="logo-text">
-			<h1> <a href="https://spartronics4915.com"> Spartronics </a> </h1>
-			<h2> FIRST Robotics Team 4915 </h2>
-			<h2> Bainbridge Island, WA </h2>
+			<h1> <a href="https://spartronics4915.com"> Spartronics 4915 </a> </h1>
+			<h2> FIRST Robotics | Bainbridge Island, WA </h2>
 		</div>
+		{% include timecircles.html %}
 	</div>
-	<!-- <div id="widget"> --> <!-- Scripts systematically replace home-widget -->
-	<!-- </div>-->
 	<nav id="menu">
-		<ul id="menu-about"> <a href="{% link about/our-team.md %}"> About </a>
+		<ul> <a href="{% link about/our-team.md %}"> About </a>
 			<li> <a href="{% link about/our-team.md %}"> Our Team </a> </li>
 			<li> <a href="{% link about/our-robots.md %}"> Our Robots </a>
-				<ul> <!-- FIXME: linking to an anchor is tricky -->
+				<ul>
 					<li> <a href="{% link about/our-robots/athena-2020.md %}"> ATHENA (2020) </a> </li>
 					<li> <a href="{% link about/our-robots/chaos-2019.md %}"> CHAOS (2019) </a> </li>
 					<li> <a href="{% link about/our-robots/themis-2018.md %}"> THEMIS (2018) </a> </li>
@@ -27,19 +25,20 @@
 			<li> <a href="{% link about/about-first.md %}"> About FIRST </a> </li>
 			<li> <a href="{% link about/contact-us.md %}"> Contact Us </a> </li>
 		</ul>
-		<ul> <a id="menu-blog" href="{% link blog.html %}"> Blog </a> </ul>
-		<ul id="community"> <a href="{% link community/outreach.md %}"> Community </a>
+		<ul> <a href="{% link blog.html %}"> Blog </a> </ul>
+		<ul> <a href="{% link calendar.html %}"> Calendar </a> </ul>
+		<ul> <a href="{% link community/outreach.md %}"> Community </a>
 			<li> <a href="{% link community/outreach.md %}"> Outreach </a> </li>
 			<li> <a href="{% link community/sponsors.md %}"> Sponsors </a> </li>
 			<li> <a href="{% link community/supporters.md %}"> Supporters </a> </li>
 			<li> <a href="{% link community/donate.md %}"> Donate </a> </li>
 		</ul>
-		<ul id="menu-media"> <a href="{% link media/photos-and-videos.md %}"> Media </a>
+		<ul> <a href="{% link media/photos-and-videos.md %}"> Media </a>
 			<li> <a href="{% link media/photos-and-videos.md %}"> Photos and Videos </a> </li>
 			<li> <a href="{% link media/news-coverage.md %}"> News Coverage </a> </li>
 			<li> <a href="{% link media/social-media.md %}"> Social Media </a> </li>
 		</ul>
-		<ul id="menu-resources"> <a href="{% link resources/general.md %}"> Resources </a>
+		<ul> <a href="{% link resources/general.md %}"> Resources </a>
 			<li> <a href="{% link resources/general.md %}"> General </a> </li>
 			<li> <a href="{% link resources/marketing.md %}"> Marketing </a> </li>
 			<li> <a href="{% link resources/programming.md %}"> Programming </a> </li>
