@@ -13,9 +13,9 @@ $dark-grey: #444444;
 
 /* SASS supports nesting (!)*/
 body {
-	background-image: url("https://spartronics4915.com/wp-content/uploads/pattern.png");
-	background-size: 100% 100%;
+	background-image: url("{% link assets/images/pattern.png %}");
 	background-repeat: repeat-x;
+	background-attachment: fixed;
 	display: flex;
 	justify-content: space-around;
 	font-family: "Raleway", cursive; /* Easy to spot mistakes */
@@ -85,30 +85,34 @@ body {
 	}
 }
 
+#top {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
 #logo {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
 	padding: 15px;
-}
-
-#logo-image {
-	padding-right: 20px;
-	max-height: 100px;
-	width: auto;
-}
-
-#logo-text {
-	padding-right: 20px;
-	h1 {
-		font-weight: normal;
-		font-size: 36px;
-		line-height: 14px;
+	img {
+		padding-right: 20px;
+		max-height: 100px;
+		width: auto;
 	}
-	h2 {
-		font-weight: normal;
-		font-size: 16px;
-		line-height: 12px;
+	div {
+		padding-right: 20px;
+		h1 {
+			font-weight: normal;
+			font-size: 36px;
+			line-height: 14px;
+		}
+		h2 {
+			font-weight: normal;
+			font-size: 16px;
+			line-height: 12px;
+		}
 	}
 }
 

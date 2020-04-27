@@ -3,8 +3,6 @@ layout: page
 title: Donate
 ---
 
-# Donate
-
 ### How to donate through BSF
 You can directly donate to BHS Spartronics Team 4915 though the Bainbridge School Foundation and 100% of your donation will go to support our team!
 
