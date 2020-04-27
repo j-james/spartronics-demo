@@ -29,8 +29,8 @@ Since our first robot - ATLaS - Spartronics (a derivative of Spartans or Sparta,
 Chaos is the Greek word for the primordial cosmos. With the theme of this year's game being space exploration, we thought that a space-themed name was appropriate. This name also happens to refer to how we did this season.
 
 Each robot name is also an acronym, based on the robot's unique capabilities or features:
-- [ATLaS]({{ site.baseurl }} {% link about/our-robots/atlas-2014.md %}) - Advanced Tele-operated Launching System (2014)
-- [GAEA]({{ site.baseurl }} {% link about/our-robots/gaea-2015.md %}) - Grabbing Actuated Elevator Automation (2015)
-- [ARES]({{ site.baseurl }} {% link about/our-robots/ares-2016.md %}) - Advanced Robot Engineered for Siege (2016)
-- [HELIOS]({{ site.baseurl }} {% link about/our-robots/helios-2017.md %}) - Highly Efficient Launcher and Intake Oriented System (2017)
-- [THEMIS]({{ site.baseurl }} {% link about/our-robots/themis-2018.md %}) - THE Mechanical Intake Scissorlift (2018)
+- [ATLaS]({{ site.baseurl }}{% link about/our-robots/atlas-2014.md %}) - Advanced Tele-operated Launching System (2014)
+- [GAEA]({{ site.baseurl }}{% link about/our-robots/gaea-2015.md %}) - Grabbing Actuated Elevator Automation (2015)
+- [ARES]({{ site.baseurl }}{% link about/our-robots/ares-2016.md %}) - Advanced Robot Engineered for Siege (2016)
+- [HELIOS]({{ site.baseurl }}{% link about/our-robots/helios-2017.md %}) - Highly Efficient Launcher and Intake Oriented System (2017)
+- [THEMIS]({{ site.baseurl }}{% link about/our-robots/themis-2018.md %}) - THE Mechanical Intake Scissorlift (2018)

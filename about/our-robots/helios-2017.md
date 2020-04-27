@@ -6,7 +6,7 @@ title: HELIOS (2017)
 ## Meet HELIOS: The \#16th ranked FRC robot in WA, OR, + AK!
 _Highly Efficient Launcher and Intake Oriented System_
 
-<img src="{{ site.baseurl }} {% link assets/images/2017/helios-and-the-team.jpg %}" alt="HELIOS and the team"/>
+<img src="{{ site.baseurl }}{% link assets/images/2017/helios-and-the-team.jpg %}" alt="HELIOS and the team"/>
 
 #### Launcher
 - Has two axes of freedom, one that adjusts the rails that the ball rides on, and one that adjusts the angle of the flywheel
@@ -72,7 +72,7 @@ Java.
 Since our first robot - ATLaS - Spartronics (a derivative of Spartans or Sparta, from ancient Greece) decided to relate our robot to Greek Mythology and name our robots after a Greek deity.
 
 Each robot name is also an acronym, based on the robot's unique capabiliities or features:
-- [ATLaS]({{ site.baseurl }} {% link about/our-robots/atlas-2014.md %}) - Advanced Tele-operated Launching System (2014)
-- [GAEA]({{ site.baseurl }} {% link about/our-robots/gaea-2015.md %}) - Grabbing Actuated Elevator Automation (2015)
-- [ARES]({{ site.baseurl }} {% link about/our-robots/ares-2016.md %}) - Advanced Robot Engineered for Siege (2016)
-- [HELIOS]({{ site.baseurl }} {% link about/our-robots/helios-2017.md %}) - Highly Efficient Launcher and Intake Oriented System (2017)
+- [ATLaS]({{ site.baseurl }}{% link about/our-robots/atlas-2014.md %}) - Advanced Tele-operated Launching System (2014)
+- [GAEA]({{ site.baseurl }}{% link about/our-robots/gaea-2015.md %}) - Grabbing Actuated Elevator Automation (2015)
+- [ARES]({{ site.baseurl }}{% link about/our-robots/ares-2016.md %}) - Advanced Robot Engineered for Siege (2016)
+- [HELIOS]({{ site.baseurl }}{% link about/our-robots/helios-2017.md %}) - Highly Efficient Launcher and Intake Oriented System (2017)

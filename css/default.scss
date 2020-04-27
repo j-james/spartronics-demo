@@ -9,11 +9,11 @@ $light-grey: #D5D5D5;
 $medium-grey: #EAEAEA;
 $dark-grey: #444444;
 
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,800,700,900);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,800,700,900);
 
 /* SASS supports nesting (!)*/
 body {
-	background-image: url("{{ site.baseurl }} {% link assets/images/blue-to-yellow.png %}");
+	background-image: url("{{ site.baseurl }}{% link assets/images/blue-to-yellow.png %}");
 	background-repeat: repeat-x;
 	background-attachment: fixed;
 	display: flex;
