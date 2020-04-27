@@ -13,7 +13,7 @@ $dark-grey: #444444;
 
 /* SASS supports nesting (!)*/
 body {
-	background-image: url("{% link assets/images/pattern.png %}");
+	background-image: url("{% link assets/images/blue-to-yellow.png %}");
 	background-repeat: repeat-x;
 	background-attachment: fixed;
 	display: flex;

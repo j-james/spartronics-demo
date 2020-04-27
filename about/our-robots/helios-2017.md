@@ -6,7 +6,7 @@ title: HELIOS (2017)
 ## Meet HELIOS: The \#16th ranked FRC robot in WA, OR, + AK!
 _Highly Efficient Launcher and Intake Oriented System_
 
-<img src="{% link assets/images/helios-and-the-team.jpg %}" alt="HELIOS and the team"/>
+<img src="{% link assets/images/2017/helios-and-the-team.jpg %}" alt="HELIOS and the team"/>
 
 #### Launcher
 - Has two axes of freedom, one that adjusts the rails that the ball rides on, and one that adjusts the angle of the flywheel

@@ -6,7 +6,7 @@ title: THEMIS (2018)
 ## Meet THEMIS
 _THE Mechanical Intake Scissorlift_
 
-<img src="{% link assets/images/themis.jpg %}" alt="THEMIS"/>
+<img src="{% link assets/images/2018/themis.jpg %}" alt="THEMIS"/>
 
 #### Scissor Lift
 - Badass
