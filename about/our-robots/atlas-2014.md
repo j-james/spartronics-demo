@@ -12,7 +12,7 @@ Build season for ATLaS started on Jan. 4, 2014, and lasted 6 weeks. ATLaS operat
 
 Over the summer of 2018, students and mentors from the leadership team took the opportunity to rebuild and reprogram ATLaS with modern parts.
 
-<img src="{% link assets/images/2014/atlas.jpg %}" alt="ATLaS">
+<img src="{{ site.baseurl }} {% link assets/images/2014/atlas.jpg %}" alt="ATLaS">
 
 #### Autonomous
 - Moves into the colored zone

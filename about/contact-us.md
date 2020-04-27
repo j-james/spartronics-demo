@@ -3,7 +3,7 @@ layout: page
 title: Contact Us
 ---
 
-<img src="{% link assets/images/bainbridge-high-school.jpg %}" alt="Bainbridge High School"/>
+<img src="{{ site.baseurl }} {% link assets/images/bainbridge-high-school.jpg %}" alt="Bainbridge High School"/>
 
 ## Address:
 9330 NE High School Road

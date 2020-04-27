@@ -25,23 +25,23 @@ First Competition: Glacier Peak High School (March 7-8, 2014)
 ## Our History
 FIRST debuted on Bainbridge Island, WA (23,000 residents) in 2013. Spartronics Team 4915 came into fruition led by a small yet incredibly dedicated group that included a student leader, a Boeing engineer, the head of our local high school science department, the District’s STEM coordinator, and a local marketing executive who had established Washington FIRST’s Facebook page in 2011.
 
-<img src="{% link assets/images/first-logo.png %}" alt="FIRST logo"/>
+<img src="{{ site.baseurl }} {% link assets/images/first-logo.png %}" alt="FIRST logo"/>
 
 FRC Team 4915 – Spartronics – was the first formal robotics program in the Bainbridge Island School District. Under the leadership of Bainbridge High School Science Department chair and Physics teacher Enrique Chee, we started from scratch, without any prior FRC, FTC or FLL-related FIRST teams. In our Rookie season, we competed with some 30 students, including 4 girls, 9 professional mentors and Coach Chee.
 
-<img src="{% link assets/images/2014/shorewood-win.jpg %}" alt="BHS Robotics win"/>
+<img src="{{ site.baseurl }} {% link assets/images/2014/shorewood-win.jpg %}" alt="BHS Robotics win"/>
 
 In our Rookie Year – 2014 – Spartronics had a Championship season: We went to the World FRC Championships in St. Louis, MO, after qualifying through point ranking at the Pacific NW Championships. We also won the “Rookie Inspiration Award” at the Pacific NW District Championship. At the Shorewood District Event our Alliance placed first, and we also won the “Rookie Inspiration Award” at Shorewood after winning the “Rookie All-Star Award” at Glacier Peak.
 
 In our second year – 2015 – due to incredible community support and extensive outreach, Spartronics doubled our team size to some 50 students of which 16 were girls – four times the number that we had in our first year! We also had a dozen professional mentors and  of course, our tireless Coach Chee.
 
-<img src="{% link assets/images/2015/girls-gen.png %}" alt="Girls Gen 2015"/>
+<img src="{{ site.baseurl }} {% link assets/images/2015/girls-gen.png %}" alt="Girls Gen 2015"/>
 
 The first time we competed at this event — our 2nd year all-girls team were on the Alliance that placed 2nd in the tournament.
 
 In our third year – 2016 – we grew to 53 students and a record number of more girls 18, as well as 15 professional mentors and more sponsors than ever before. It was in 2016 that Spartronics implemented the most exciting change to its team yet: We transition to being fully student-managed and operated, as we are committed to teaching critical thinking and deliberate action, foster self-determination, and encourage the growth of leadership skills amongst ourselves. Our goal is to maintain our successes while teaching our members the skills of proactivity and the power of deliberate action. The burden of accountability and responsibility is greater on us — the students — but we have accepted the challenge with energy and zeal.
 
-<img src="{% link assets/images/2014/robby-teach.jpg %}" alt="Robby supervising a kid driving ATLaS"/>
+<img src="{{ site.baseurl }} {% link assets/images/2014/robby-teach.jpg %}" alt="Robby supervising a kid driving ATLaS"/>
 
 Now in our fourth year and our second year as 100% student led, Spartronics fields a team of 50 students, 16 professional mentors and our Coach Chee. 26% of our team is comprised of girls as we strive for gender equality. This year started as our most successful year yet as we finished our first District Event in first place (10-2) and for the first time, and our winning alliance – which we selected – finished 1st and won the Auburn Mountainview District Championship! We also won the coveted FIRST “Engineering Inspiration Award” and began our season ranked #1 out of 155 teams in Washington and Oregon.
 
